@@ -1,0 +1,164 @@
+body {
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    position: fixed;
+}
+
+/* ... Votre CSS existant ... */
+
+
+.container {
+    position: relative;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3.5%;
+    padding: 1.75%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    outline: 4px solid #555;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bloc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10%;
+    width: 40%;
+    background-color: #333;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    height: 24vh;
+    border: 1px solid #555;
+    opacity: 1;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.bloc.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bloc:hover {
+    box-shadow: 1px 2px 3px 1px gray;
+    background-color: grey;
+}
+
+.bloc h3 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: alic;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5cm;
+}
+
+.bloc h4 {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #e64a2e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bloc h5 {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    background-color: #e64a2e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    max-width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 45px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e64a2e;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
+
+.navbar {
+    position:initial;
+  top: 0;
+  bottom: 92%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+ 
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .navbar h2 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+  }
+
+
+/* .navbarsFixed {
+    position: fixed;
+    opacity: 1;
+    width: 100%;
+} */

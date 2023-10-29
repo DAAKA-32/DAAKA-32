@@ -1,0 +1,68 @@
+body {
+    background-color: #333; /* Couleur de fond sombre */
+    padding: 35px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Couleur du texte principal */
+}
+
+.container {
+    max-width: 1084px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #444; /* Fond de la boîte principale */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header {
+    background-color: #222; /* Fond de l'en-tête */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    background-color: #555; /* Fond du contenu principal */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #666; /* Fond du pied de page */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+button {
+    background-color: red; /* Couleur du bouton */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: red;
+    outline: 2px solid #444;
+}
+a {
+    text-decoration: none;
+    color: white; /* Couleur du lien */
+}
