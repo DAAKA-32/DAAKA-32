@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../componentCSS/Home.css';
 import By from '../components/By';
 import Navbar from '../components/Navbar';
+import Logo from '../components/Logo';
 
 function Home() {
   useEffect(() => {
@@ -102,7 +103,7 @@ function Home() {
   }, []);
     return (
     <div>
-      
+      <Logo />
       {/* //useEffect pour couleur selon la Page */}
       <By/> 
  
