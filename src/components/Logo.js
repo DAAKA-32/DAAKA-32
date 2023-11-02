@@ -4,8 +4,8 @@ import '../componentCSS/Logo.css';
 const Logo = () => {
     return (
         <div>
-            <img src="../Logo.png" alt="P-films-logo" />
-            {/* <h2>P-films</h2> */}
+            <img src="/src/Logo.png" alt="P-films-logo" />
+            <h2>films</h2>
         </div>
     );
 };

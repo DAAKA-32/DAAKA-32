@@ -13,7 +13,7 @@ body {
 .container {
     position: relative;
     max-width: 75%;
-    max-height: 600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #333;
@@ -119,47 +119,3 @@ img {
 ::-webkit-scrollbar-button:end:increment {
     display: none;
 }
-
-.navbar {
-    position:initial;
-  top: 0;
-  bottom: 92%;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: #444;
-  padding: 10px;
-  text-align: center;
-}
- 
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navbar li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  .navbar button {
-    background: none;
-    border: none;
-    padding: 0;
-  }
-  
-  .navbar h2 {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Arial', sans-serif;
-  }
-
-
-/* .navbarsFixed {
-    position: fixed;
-    opacity: 1;
-    width: 100%;
-} */

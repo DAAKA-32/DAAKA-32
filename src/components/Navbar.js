@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import '../componentCSS/Navbar.css'
+import '../components/Connection';
+import Connection from '../components/Connection';
 const Navbar = () => {
 
     // let container = document.querySelector('.container'); 
@@ -41,6 +43,7 @@ const Navbar = () => {
             <li><button><h2>Ma liste</h2></button></li>
             <li><button><h2>Tendance</h2></button></li>
             <li><button><h2>Contact</h2></button></li>
+            <Connection />
           </ul>
         </div>
     );

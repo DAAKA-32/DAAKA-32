@@ -3,6 +3,8 @@ import React from 'react';
 
 const Intro = () => {
     return (
+    <div>
+        {/* <img src="../P-films.mp4" alt="Vidéo" /> */}
         <div className="container">
             <header>
                 <h1>Bienvenue sur P-film</h1>
@@ -16,9 +18,10 @@ const Intro = () => {
                 <br />
                 <h4>La liste est longue...</h4>
                 <button>
-                    <a href="/src/Page/Home.js">Cliquez ici</a>
+                    <a href="../Page/Home.js">Cliquez ici</a>
                 </button>
             </footer>
+        </div>
         </div>
     );
 };
